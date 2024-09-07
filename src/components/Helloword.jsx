@@ -11,7 +11,7 @@ export const Helloword=(props)=>{
     return(
         <>
         <h1>Hola. {props.mundo}{mensaje?" (Desde el Estado)":""}</h1>
-        <button className="" onClick={click}>Click</button>
+        <button className="" onClick={click}>Click para abrir</button>
         </>
     )
 }
